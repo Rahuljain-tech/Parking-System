@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: 16px;
+    background-color: #ccc;
+
+}
+h1{
+    background-color: #025658;
+    text-align: center;
+    padding:5px 0px;
+    color:#f8f9fa;
+}
+form{
+    width:500px;
+    margin:10px auto;
+    background-color: white;
+    border : solid 2px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form h2{
+    background-color: #888;
+    color:white;
+    text-align: center;
+
+}
+form input{
+    width:100%;
+    padding:9px 10px;
+    box-sizing: border-box;
+}
+
+form input[type=radio]
+{
+    width : auto;
+    margin-right:10px;
+
+}
+#ticket{
+    text-align: center;
+}

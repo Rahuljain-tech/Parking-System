@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="./scripts/app.js" type="module"></script>
+    <title>Form</title>
+</head>
+
+<body>
+    <h1> -------- SKIT PARKING SYSTEM --------- </h1>
+    <form>
+        <h2>USER REGISTRATION</h2>
+        <div>
+
+            <label for="text"> Name: </label>
+            <input type="text" name="Name" required pattern="[A-Z a-z]+" id="uName" placeholder="Name">
+
+            <label for="text">Contact:</label>
+            <input type="number" name="Con" id="uContact"  required placeholder="Number" pattern="[0-9]{10}" />
+
+        </div>
+        <div>
+            <!-- <label> Gender :
+                <label>
+                    <input type="radio" required name="gender" id="Male" />Male
+                </label>
+                <label>
+                    <input type="radio" required name="gender" id="Female" />Female
+                </label>
+            </label> -->
+
+        </div>
+        </div>
+        <div>
+            <label> User Type: </label>
+            <select name="" id="uRole">
+                <option value="" disabled selected> select user </option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty/Staff</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit" id="userSubmit">
+        </div>
+
+    </form>
+    <form>
+        <h2>Vehicle Registration</h2>
+        <div>
+            <label for="">Vehicle ID:</label>
+            <input type="text" required placeholder="Id/Name/RId" id="vehicleName"/>
+        </div>
+        <div>
+            <label>Vehicle Type:
+                <select name="" id="vehicleType">
+                    
+                    <option value="" disabled selected> select vehicle</option>
+                    <option value="car">Car</option>
+                    <option value="bike">Bike</option>
+                    <option value="cycle">Cycle</option>
+
+                </select>
+
+            </label>
+
+        </div>
+        <div>
+            <!-- <label>Owner: <input type="text" placeholder="Owner" id="ownerName"/></label> -->
+        </div>
+        <div>
+            <input type="submit" value="Submit" id="vehicleSubmit">
+        </div>
+
+    </form>
+    <form id="passChoice">
+        <!--<h2 >Pass Choice</h2>
+
+         <div>
+            <input type="button" value="Daily pass">
+            <input type="button" value="Month pass">
+            <input type="button" value="Yearly pass">
+        </div> -->
+
+    </form>
+
+    <div id="ticket">
+    <!--<h2 > Ticket </h2>
+     <div>
+        <label>Pass Id</label>
+        <label>...............</label>
+    </div>
+    <div>
+        <label>Vehicle ID</label>
+        <label>...............</label>
+    </div>
+    <div>
+        <label>Owner Name</label>
+        <label>...............</label>
+    </div>
+    <div>
+        <label>Expiry</label>
+        <label>...............</label>
+    </div> -->
+    </div>
+
+
+
+
+
+</body>
+
+</html>
